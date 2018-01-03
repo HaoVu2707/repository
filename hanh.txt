@@ -1,1 +1,10 @@
 pham hanh
+Applying: added readme
+No changes - did you forget to use 'git add'?
+If there is nothing left to stage, chances are that something else
+already introduced the same changes; you might want to skip this patch.
+
+When you have resolved this problem, run "git rebase --continue".
+If you prefer to skip this patch, run "git rebase --skip" instead.
+To check out the original branch and stop rebasing, run "git rebase --abort".
+Then I ran git rebase --skip to move forward and again got the same error of merge conflict for the README.md. For each time I commited to the README.md I got this error and each I time I had to remove the conflict manually, commit the changes and then run, git rebase --continue and git rebase --skip. Since, in my case the README.md was not that much updated, I got around with this. A quick workaroud would have been to rename all the colliding name files of new repo to something else and then run git pull --rebase development.
