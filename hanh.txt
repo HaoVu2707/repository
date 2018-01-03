@@ -8,3 +8,13 @@ When you have resolved this problem, run "git rebase --continue".
 If you prefer to skip this patch, run "git rebase --skip" instead.
 To check out the original branch and stop rebasing, run "git rebase --abort".
 Then I ran git rebase --skip to move forward and again got the same error of merge conflict for the README.md. For each time I commited to the README.md I got this error and each I time I had to remove the conflict manually, commit the changes and then run, git rebase --continue and git rebase --skip. Since, in my case the README.md was not that much updated, I got around with this. A quick workaroud would have been to rename all the colliding name files of new repo to something else and then run git pull --rebase development.
+
+
+
+<<thu>>
+Looking for the meanings of words, phrases, and expressions? We provide hundreds of thousands of definitions, synonyms, antonyms, and pronunciations for English and other languages, derived from our language research and expert analysis. We also offer a unique set of examples of real usage, as well as guides to:
+
+Writing help: This section gives guidelines on writing in everyday situations, from applying for a job to composing letters of complaint or making an insurance claim.
+Grammar: Straightforward advice on some of the trickier points of English grammar.
+Spelling: This section contains lots of quick-reference spelling tips and other useful guidelines.
+Usage: This section gives you lots of practical advice, helping you to avoid making some of the most common mistakes of usage.
