@@ -15,3 +15,4 @@ Edit your message with the same 3 steps process as above (rebase -i, commit --am
 git push origin master --force
 ⚠️ But! Remember re-pushing your commit after changing it will very likely prevent others to sync with the repo, if they already pulled a copy. You should first check with them.
 vũ thị hảo
+phạm hoàng anh thư
