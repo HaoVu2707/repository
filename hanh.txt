@@ -1,48 +1,20 @@
-pham hanh
-Applying: added readme
-No changes - did you forget to use 'git add'?
-If there is nothing left to stage, chances are that something else
-already introduced the same changes; you might want to skip this patch.
+pham hanh 
+1. khoi tao git trong 1 repository (git init)
+	1.1.(git add <ten file> / git add . (thêm tât ca)) thêm cac file dê theo doi :
+	1.2: git status : kiêm tra file nao dã theo dõi hay chua
+	1.3: git diff-stat : biet dc thay dôi bao nhieu dòng code
+2.dây code lên 1 gitHub duoc luu tru online , (git remote add origin dgdantren github)
+3. nêu clone 1 project tu github thì tu nó da có origin rôi  (git clone ddgdan tren github)
+4.khi cân dôi remote repo. tuc la khi ban coppy 1 cái repo cua ng khác và ban muôn chuyên owner thành tài khoan github cua ban (git remote set-url origin ddgdantren github)
+5.branch :
+	+ git branch : liêt kê tât ca các nhanh trong local cua ban
+	+ git checkout <tennhanh>: chuyên sang 1 nhanh dã tôn tai
+	+ git branch <ten> : tao 1 nhanh moi
+	+git checkout -b <ten> : tao 1 nhanh moi và ngay lap tuc chuyên sang nhánh dó
 
-When you have resolved this problem, run "git rebase --continue".
-If you prefer to skip this patch, run "git rebase --skip" instead.
-To check out the original branch and stop rebasing, run "git rebase --abort".
-Then I ran git rebase --skip to move forward and again got the same error of merge conflict for the README.md. For each time I commited to the README.md I got this error and each I time I had to remove the conflict manually, commit the changes and then run, git rebase --continue and git rebase --skip. Since, in my case the README.md was not that much updated, I got around with this. A quick workaroud would have been to rename all the colliding name files of new repo to something else and then run git pull --rebase development.
-
-<<hao:>>
-No changes - did you forget to use 'git add'?
-If there is nothing left to stage, chances are that something else
-already introduced the same changes; you might want to skip this patch.
-
-When you have resolved this problem, run "git rebase --continue".
-If you prefer to skip this patch, run "git rebase --skip" instead.
-To check out the original branch and stop rebasing, run "git rebase --abort".
-Then I ran git rebase --skip to move forward and again got the same error of merge conflict for the README.md. For each time I commited to the README.md I got this error and each I time I had to remove the conflict manually, commit the changes and then run, git rebase --continue and git rebase --skip. Since, in my case the README.md was not that much updated, I got around with this. A quick workaroud would have been to rename all the colliding name files of new repo to something else and then run git pull --rebase development.
-
-Looking for the meanings of words, phrases, and expressions? We provide hundreds of thousands of definitions, synonyms, antonyms, and pronunciations for English and other languages, derived from our language research and expert analysis. We also offer a unique set of examples of real usage, as well as guides to:
-
-Writing help: This section gives guidelines on writing in everyday situations, from applying for a job to composing letters of complaint or making an insurance claim.
-Grammar: Straightforward advice on some of the trickier points of English grammar.
-Spelling: This section contains lots of quick-reference spelling tips and other useful guidelines.
-Usage: This section gives you lots of practical advice, helping you to avoid making some of the most common mistakes of usage.
-
-
-<< thu2 >>
-When you have resolved this problem, run "git rebase --continue".
-If you prefer to skip this patch, run "git rebase --skip" instead.
-To check out the original branch and stop rebasing, run "git rebase --abort".
-Then I ran git rebase --skip to move forward and again got the same error of merge conflict for the README.md. For each time I commited to the README.md I got this error and each I time I had to remove the conflict manually, commit the changes and then run, git rebase --continue and git rebase --skip. Since, in my case the README.md was not that much updated, I got around with this. A quick workaroud would have been to rename all the colliding name files of new repo to something else and then run git pull --rebase development.
-
-
-
-<<thu>>
-Looking for the meanings of words, phrases, and expressions? We provide hundreds of thousands of definitions, synonyms, antonyms, and pronunciations for English and other languages, derived from our language research and expert analysis. We also offer a unique set of examples of real usage, as well as guides to:
-
-Writing help: This section gives guidelines on writing in everyday situations, from applying for a job to composing letters of complaint or making an insurance claim.
-Grammar: Straightforward advice on some of the trickier points of English grammar.
-Spelling: This section contains lots of quick-reference spelling tips and other useful guidelines.
-Usage: This section gives you lots of practical advice, helping you to avoid making some of the most common mistakes of usage.
-
-
-
-
+6. hop nhât nhanh moi vs nhánh chính master:
+	1. chuyên sang nhánh chính master
+	2. git merge <ten nhanh hop nhat vao master>
+7. git pull origin <ten nhanh> : kéo nhung thay dôi moi nhât vê 
+8. git push origin <ten nhanh>: update lên nhanh do trên github
+9. discard : xóa nhung su thay dôi
